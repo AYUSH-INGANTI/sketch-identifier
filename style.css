@@ -1,0 +1,30 @@
+body{
+    background-color:darksalmon;
+}
+
+h1{
+    color:darkblue;
+    background-color:cornsilk;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border:5 solid white;
+    border-radius: 20px;
+    animation:shadow-anim 2s infinite ease-in-out alternate-reverse;
+    margin-top: 50px;
+}
+
+@keyframes shadow-anim {
+    from{box-shadow: 1px 1px 38px grey;}
+    50%{box-shadow: 1px 1px 38px darkgrey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+p{
+    padding-top:15px;
+    font-size: 25px;
+}
